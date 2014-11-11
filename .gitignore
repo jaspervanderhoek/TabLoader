@@ -1,0 +1,6 @@
+test/.classpath
+test/.project
+test/deployment/
+test/javasource/
+test/userlib/
+test/test.launch

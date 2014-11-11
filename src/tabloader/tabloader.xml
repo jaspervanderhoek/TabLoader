@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="tabloader.widget.tabloader" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+	<name>Tab Loader</name>
+	<description>Tab Loader</description>
+
+	<icon>
+		iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhk
+		iAAAAAlwSFlzAAABuwAAAbsBOuzj4gAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3Nj
+		YXBlLm9yZ5vuPBoAAAElSURBVDiNnZO/asJQFIe/E3K9VCF0EKp7JwdxcfAdUgrt
+		q/S1nPoGxU2y3FmcE3QoIXATFW4HiWhyK+pvu79z7nf+wBHnHD6JyBMwBfqN0BZY
+		OucsQOj9fdQ0TdNvrXV0blZVlQ8GgzfgByAUkVdg7AG8aK2jXq/X9KPzrkJgbK2d
+		V1XVIpRlSRMgIhfvEGC329HtdluJnup+gIi0ArWstSRJwmazoS4GzERkCywF+CiK
+		Yq619gIWiwWj0YhOp9Mc73c4HL6fOliv1xhjWoAsy5hMJr5xnoH+CWCMIY5j7l1m
+		CKCU4nA4PLTMEDBKqU9gluf513/LbCoIgiPAObcCViJyMm/RxQjn5q0d1HmBz3y4
+		A6UU+/3+JoBS6giqz/nKUV2T+QNX0WEI6uiGVQAAAABJRU5ErkJggg==
+	</icon>
+
+	<properties>
+		<property key="tabclass" type="string">
+			<caption>Tab class</caption>
+			<category>Behavior</category>
+			<description>The class assigned to the tab container.</description>
+		</property>
+		<property key="tabindicator" type="attribute" required="true">
+            <caption>Tab Indicator</caption>
+            <category>Behavior</category>
+            <description>Select the attribute that indicates the tab number. The first tab is indicated as 0.</description> 
+		  <attributeTypes>
+			<attributeType name="Integer"/> 
+			<attributeType name="Long"/> 
+		  </attributeTypes>
+        </property>
+	</properties>
+</widget>
